@@ -1,0 +1,36 @@
+.responses {
+    /* max-height: 1050px; */
+    margin-bottom: 70px;
+    img {
+        width: 169px;
+        height: 169px;
+    }
+    .title {
+        margin-bottom: 70px;
+    }
+    &-items {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 102px;
+    }
+    &-item {
+        margin-left: 62px;
+        &__title {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        &__subtitle {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 19px;
+            margin-bottom: 19px;
+        }
+            
+    }
+    
+}
+

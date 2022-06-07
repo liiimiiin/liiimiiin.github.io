@@ -1,0 +1,52 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background: none;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    
+    }
+    .next {
+        right: -66px;
+        left: auto;
+        }
+    .tns-item{
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .tns-nav {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    }   
+    .tns-nav [aria-controls] {
+        border: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        padding: 0;
+        margin: 0 5px;
+        
+    }
+    .tns-nav-active {
+        background-color: rgb(240, 85, 85);
+        border: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
